@@ -20,13 +20,14 @@
     "prisma:pull:local": "dotenv -e .env.local -- npx prisma db pull && dotenv -e .env.local -- npx prisma generate"
   },
   "dependencies": {
-    "@emotion/react": "^11.13.0",
-    "@emotion/styled": "^11.13.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@fontsource/roboto": "^5.0.14",
     "@mui/icons-material": "^5.16.7",
-    "@mui/material": "^5.16.7",
+    "@mui/material": "^7.3.8",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
-    "@mui/x-date-pickers": "^8.26.0",
+    "@mui/system": "^7.3.8",
+    "@mui/x-date-pickers": "^8.27.2",
     "@prisma/client": "^5.18.0",
     "axios": "^1.7.3",
     "dayjs": "^1.11.19",
@@ -55,5 +56,4 @@
     "standard-version": "^9.5.0",
     "typescript": "^5"
   }
-
 }
